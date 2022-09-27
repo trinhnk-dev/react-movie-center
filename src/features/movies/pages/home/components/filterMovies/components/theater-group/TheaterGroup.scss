@@ -1,0 +1,97 @@
+@import "../../../../../../../../styles/Helper/mixin";
+.header__filter {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0;
+  height: 13rem;
+  border: 1px solid orange;
+  border-radius: 10px 10px 0 0;
+  @include mobile-md {
+    flex-direction: column;
+  }
+
+  .menu--header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    .btn--header {
+      border: 1px solid orange;
+      border-radius: 0.5rem;
+      background-color: transparent;
+      height: 5rem;
+      width: 5rem;
+      position: relative;
+
+      overflow: hidden;
+      .img--header {
+        cursor: pointer;
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+.content__cover {
+  height: 100vh;
+  border: 1px solid orange;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  padding: 0 !important;
+
+  .sider {
+    overflow-y: auto;
+
+    .sider--menu {
+      .ant-menu-item {
+        height: 7rem;
+        border-bottom: 1px solid orange;
+
+        .sider--items {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .sider--img {
+            width: 30%;
+          }
+          .theater--name {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    background-color: #fff;
+    overflow: auto;
+    border-left: 1px solid orange;
+    .site-card-wrapper {
+      .card {
+        margin-top: 10px;
+        border-bottom: 1px solid orange;
+        .col--img {
+          text-align: center;
+          margin-bottom: 15px;
+          img {
+            border-radius: 12px;
+            cursor: pointer;
+            width: 200px;
+          }
+        }
+        .col--title {
+          h3 {
+            color: #c1121f;
+          }
+          .btn--time {
+            margin-bottom: 10px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

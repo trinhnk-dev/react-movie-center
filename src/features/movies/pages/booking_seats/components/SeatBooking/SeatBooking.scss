@@ -1,0 +1,137 @@
+.card__movies {
+  border: none;
+  height: 120%;
+  .screen {
+    text-align: center;
+    height: 40px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #8eecf5;
+    filter: drop-shadow(4px 30px 20px grey);
+    font-size: 25px;
+    color: #000;
+    margin: 0 auto;
+    font-weight: 900;
+    margin-bottom: 100px;
+  }
+  .reponsive {
+    display: none;
+    .seat {
+      width: 50%;
+    }
+    .title {
+      width: 25%;
+    }
+  }
+  .seat__group {
+    padding: 0 10px;
+    width: 45rem;
+    height: 32rem;
+    margin: auto;
+
+    .btn--seat {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: solid 1px rgb(141, 226, 43) !important;
+      background-color: transparent;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+.seat--vip {
+  background-color: rgb(141, 226, 43) !important;
+}
+.seat--booked {
+  position: relative;
+
+  color: #fff;
+  background-color: transparent !important;
+  &:hover {
+    transform: none !important;
+    cursor: not-allowed !important;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("https://3.bp.blogspot.com/-LHdLdAlA1E0/UyayLmE1XfI/AAAAAAAAETA/Jr90-IZUUvM/s1600/icon.png")
+      no-repeat;
+    width: 20px;
+    height: 20px;
+  }
+}
+.seat--selected {
+  background: #ff595e !important;
+}
+.note__seat {
+  margin-top: 20px;
+}
+//button payment
+.button {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.button a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8eecf5;
+  display: inline-block;
+  position: relative;
+  padding: 10px 40px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  color: #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active {
+  top: 10px;
+  background-color: rgb(141, 226, 43);
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+//Reponsive
+@media only screen and (max-width: 992px) {
+  .card__movies {
+    .reponsive {
+      box-shadow: #8eecf5 -5px 5px, #8eecf5 -10px 10px, #8eecf5 -15px 15px;
+      border-radius: 12px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      border: 1px solid rgb(141, 226, 43);
+    }
+  }
+}

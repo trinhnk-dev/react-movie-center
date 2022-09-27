@@ -1,0 +1,46 @@
+.Header {
+  box-shadow: rgba(50, 50, 93, 0.25) 10px -9px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 !important;
+    .left {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      .logo {
+        display: flex;
+        padding-top: 10px;
+        h1 {
+          cursor: pointer;
+          color: #c1121f;
+          font-weight: 700;
+          font-size: 24px;
+        }
+        img {
+          width: 80px;
+          height: 60px;
+          object-fit: contain;
+          cursor: pointer;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      justify-content: end;
+      font-size: 1.5rem;
+      width: 70%;
+      border-bottom: none;
+      color: #525252;
+      font-weight: 600;
+      .nav-sub {
+        margin-left: 20px;
+      }
+    }
+  }
+}

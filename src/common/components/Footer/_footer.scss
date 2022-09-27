@@ -1,0 +1,216 @@
+.Footer {
+  background-color: #262626;
+  padding: 40px 0;
+  margin-top: 50px;
+
+  // Row 1
+  .schedule {
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    .schedule-item {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      cursor: pointer;
+      &:hover {
+        color: rgb(232, 231, 231);
+      }
+    }
+  }
+
+  .blog {
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    .blog-item {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      cursor: pointer;
+      &:hover {
+        color: rgb(232, 231, 231);
+      }
+    }
+  }
+
+  .cinemas {
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    .cinemas-item {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      cursor: pointer;
+      &:hover {
+        color: rgb(232, 231, 231);
+      }
+    }
+  }
+
+  ///////////////////////
+  .customer-care {
+    // text-align: center;
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    .address {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+    }
+    .hotline {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      strong {
+        color: white;
+      }
+    }
+    .email {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      strong {
+        color: white;
+      }
+    }
+    .switchboard {
+      padding: 3px 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(150, 149, 149);
+      strong {
+        color: white;
+      }
+    }
+  }
+
+  ////////
+  .help {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+      width: 40px;
+      display: inline-block;
+      height: 40px;
+      border: 3px solid white;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .right {
+      display: inline-block;
+      padding: 0 15px;
+
+      .text {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(150, 149, 149);
+      }
+      strong {
+        color: white;
+      }
+    }
+  }
+
+  ////////
+  .app-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .app-store {
+      width: 40%;
+      display: flex;
+      padding: 5px;
+      margin: 20px 0;
+
+      border: 1px solid white;
+      border-radius: 6px;
+      cursor: pointer;
+
+      .left {
+        width: 40%;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fab1a0;
+      }
+      .right {
+        width: 80%;
+        padding: 0 15px;
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgb(150, 149, 149);
+        }
+        strong {
+          color: white;
+        }
+      }
+    }
+
+    .google-play {
+      width: 40%;
+      display: flex;
+      padding: 5px;
+      margin: 20px 0;
+      border: 1px solid white;
+      border-radius: 6px;
+      cursor: pointer;
+
+      .left {
+        width: 20%;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #55efc4;
+      }
+      .right {
+        width: 80%;
+        padding: 0 15px;
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgb(150, 149, 149);
+        }
+        strong {
+          color: white;
+        }
+      }
+    }
+  }
+
+  // Row 2
+}

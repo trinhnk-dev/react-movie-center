@@ -1,0 +1,38 @@
+@import "antd/dist/antd.css";
+@import "./styles/main.scss";
+
+@import "./common/components/Header/header";
+
+@import "features/movies/pages/home/components/filterMovies/FilterMovies.scss";
+
+@import "features/movies/pages/home/components/Banner/banner";
+
+@import "features/movies/pages/home/components/NowShowingMovie/nowShowingMovie";
+
+@import "features/movies/pages/home/components/NowShowingMovie/components/ShowingMovieItem/showingMovieItem";
+
+@import "features/movies/pages/home/components/UpcomingMovie/upcomingMovie";
+
+@import "features/movies/pages/home/components/UpcomingMovie/components/UpcomingMovieItem/upcomingMovieItem";
+
+@import "features/movies/pages/home/components/SliderArrow/arrowSlick";
+
+@import "features/movies/pages/home/components/CinemasGroup/cinemasGroup";
+
+@import "features/movies/pages/detail/detail";
+@import "features/movies/pages/detail/components/MovieInfo/movieInfo";
+@import "features/movies/pages/detail/components/MovieBody/components/MovieSchedule/movieSchedule";
+@import "features/movies/pages/detail/components/MovieBody/components/MovieSchedule/TheaterInfo/theaterInfo";
+
+@import "features/movies/pages/detail/components/MovieBody/components/RateStar/rateStar";
+
+@import "features/authentication/signUp/signUp";
+@import "features/authentication/signIn/signIn";
+
+@import "features/authentication/Profile/profile";
+
+@import "features/movies/pages/detail/components/MovieBody/components/UserComment/comment";
+
+@import "common/components/Footer/footer";
+
+@import "features/movies/pages/home/components/filterMovies/components/theater-group/TheaterGroup";

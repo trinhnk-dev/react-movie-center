@@ -1,0 +1,93 @@
+.CinemasGroup {
+  padding: 40px 0;
+  margin: 40px 0;
+
+  h1 {
+    text-align: center;
+    color: #a50064;
+  }
+  h3 {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 30px;
+  }
+
+  .theater-group {
+    background-color: rgb(245, 245, 245);
+    padding: 15px 150px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px 10px 0 0;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    &:first-child {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .theater-item {
+      padding: 5px;
+      border: 1px solid orange;
+      border-radius: 5px;
+    }
+  }
+
+  .find-content {
+    padding: 20px;
+    border-right: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+
+    .theater-list {
+      margin-top: 20px;
+      height: 350px;
+      overflow-y: auto;
+      .theater {
+        padding: 10px 10px;
+
+        border: 1px solid rgb(230, 229, 229);
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      .inactive {
+        background-color: white;
+      }
+      .active {
+        background-color: rgb(253, 237, 239);
+      }
+    }
+  }
+
+  //////////
+  .detail-content {
+    margin-left: 30px;
+    padding: 20px;
+
+    .detail {
+      .theater-name,
+      .theater-id,
+      .address {
+        display: flex;
+        padding: 5px 0;
+        .left {
+          width: 15%;
+          font-weight: bold;
+        }
+        .right {
+          width: 70%;
+        }
+      }
+
+      .list {
+        margin-top: 20px;
+        border: 1px solid #d1d1d1;
+        height: 280px;
+        overflow-y: auto;
+        .table {
+        }
+      }
+    }
+  }
+}

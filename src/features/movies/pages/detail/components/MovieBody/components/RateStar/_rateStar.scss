@@ -1,0 +1,16 @@
+.RateStar {
+	padding: 20px 0;
+	.movie-rate {
+		padding: 20px 0;
+		border: 1px solid rgb(210, 205, 205);
+		text-align: center;
+		.title {
+			font-size: 16px;
+			font-weight: 500;
+			color: gray;
+		}
+		.btn-rate {
+			padding: 10px 0;
+		}
+	}
+}
